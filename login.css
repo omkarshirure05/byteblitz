@@ -1,0 +1,202 @@
+/* Import cool gaming font */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+    --primary-text-color: #163b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 20px;
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background: radial-gradient(circle at top, #0a0a0a, #050505 90%);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+
+
+.login-container {
+  background: rgba(20, 20, 20, 0.9);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #00ffcc, 0 0 5px #7700ff;
+  text-align: center;
+  width: 350px;
+}
+
+.logo {
+  font-size: 2.5rem;
+  color: #00ffcc;
+  /* text-shadow: 0 0 10px #00ffcc, 0 0 20px #7700ff; */
+  margin-bottom: 20px;
+}
+
+.login-title {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.login-form .input-box {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-bottom: 2px solid #00ffcc;
+  background: transparent;
+  outline: none;
+  font-size: 1rem;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.input-box label {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+  font-size: 0.9rem;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+.input-box input:focus,
+.input-box input:valid {
+  border-bottom: 2px solid #7700ff;
+}
+
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
+  top: -10px;
+  font-size: 0.75rem;
+  color: #00ffcc;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, #00ffcc, #7700ff);
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  box-shadow: 0 0 20px #00ffcc, 0 0 40px #7700ff;
+  transform: scale(1.05);
+}
+
+.signup-text {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.signup-text a {
+  color: #00ffcc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.signup-text a:hover {
+  color: #7700ff;
+}
+
+
+.secondary-button{
+    border: 0.5px solid var(--secondary-text-color);
+    border-radius: 6px;
+    font-weight: 700;
+    color: var(--primary-text-color) !important;
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
+    margin-right: 30px;
+}
+
+.secondary-button:hover{
+    border-color: var(--accent-color);
+    color: var(--accent-color) !important;
+}
+
+@media only screen and (max-width: 786px) {
+
+  body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+  }
+
+  /* Move Back button below the container */
+  .container {
+      width: 100%;
+      text-align: center;
+      margin-top: 15px; /* space above the button */
+      order: 1; /* position after the login container */
+  }
+
+  .login-container {
+      width: 90%;
+      padding: 30px;
+      margin-top: 20px;
+      order: 0; /* ensure container comes first */
+  }
+
+  .logo {
+      font-size: 2rem;
+  }
+
+  .login-title {
+      font-size: 1.3rem;
+      margin-bottom: 15px;
+  }
+
+  .input-box input {
+      padding: 10px;
+      font-size: 0.95rem;
+  }
+
+  .input-box label {
+      font-size: 0.8rem;
+  }
+
+  .login-btn {
+      padding: 10px;
+      font-size: 0.95rem;
+  }
+
+  .signup-text {
+      font-size: 0.85rem;
+  }
+
+  .secondary-button {
+      padding: 10px 20px;
+      font-size: 0.95rem;
+      margin-right: 0; /* center under container */
+  }
+}
+
+

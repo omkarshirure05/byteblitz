@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+<body>
+    
+    <!-- Top Banner -->
+   <div class="top-banner">
+     <div class="container">
+       <div class="small-bold-text banner-text">“Download, play, dominate. Your next adventure starts here!!.”</div>
+     </div>
+   </div>
+
+    <!--Navbar  -->
+   <nav>
+      <div class="container main-nav flex">
+        <a href="./index.html" class="company-logo">
+            <img src="./Mylogo.png" alt="website-logo" width="200px">
+        </a>
+        <div class="nav-links"></div>
+             <ul class="flex">
+                <li><a href="#" class="hover-link">Search Games</a></li>
+                <li><a href="./release.html" class="hover-link">New Releases</a></li>
+                <li><a href="./download.html" class="hover-link">How to Download</a></li>
+                <li><a href="./login.html" class="hover-link secondary-button">LogIn</a></li>
+             </ul>
+      </div>
+   </nav>
+
+    <!-- Header -->
+   <header>
+        <div class="container">
+         <p class="gaming-description">"Welcome to ByteBlitz – your ultimate gaming destination! From action-packed adventures to strategy-filled challenges, we bring you the best games with safe and lightning-fast downloads. Whether you’re a casual player or a hardcore gamer, ByteBlitz is designed to keep you ahead of the competition. Explore trending titles, discover hidden gems, and take your gaming journey to the next level – all in one place."</p>
+        </div>
+   </header>
+
+
+   
+    <!-- Carousels -->
+    <div class="container">
+      <h2 class="card-header">Slide right for Featured games</h2>  
+
+
+     <div id="carouselExampleCaptions" class="carousel slide">
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./courousels/asset 20.jpg" class="d-block w-100" alt="" >
+      <div class="carousel-caption d-none d-md-block">
+        <button class="secondary-button btn1">Download Now</button>
+        <h2 class="h22">Fortnite</h2>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img  src="./courousels/asset 21.jpg" class="d-block w-100" alt="">
+      <div class="carousel-caption d-none d-md-block">
+      <button class="secondary-button btn1">Download Now</button>
+
+        <h2 class="h22">Endless Dungeon</h2>
+    </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="./courousels/courousels.jpg" class="d-block w-100" alt="">
+      <div class="carousel-caption d-none d-md-block">
+        <button class="secondary-button btn1">Download Now</button>
+
+        <h2 class="h22">Age of Wonders4</h2>
+      </div>
+    </div>
+
+     <div class="carousel-item">
+      <img src="./courousels/GTA_5_1718973871744_1718973872239.avif" class="d-block w-100" alt="">
+      <div class="carousel-caption d-none d-md-block">
+        <button class="secondary-button btn1">Download Now</button>
+        <h2 class="h22">Grand Thief Auto</h2>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="./courousels/NGU_CREATE_YOUR_OWN_CYBERPUNK_EN.png" class="d-block w-100" alt="">
+      <div class="carousel-caption d-none d-md-block">
+       <button class="secondary-button btn1">Download Now</button>
+       <h2 class="h22">Cyberpunk 2077</h2>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="./courousels/valorant-listing-2048x1152.jpg" class="d-block w-100" alt="">
+      <div class="carousel-caption d-none d-md-block">
+        <button class="secondary-button btn1">Download Now</button>
+        <h2 class="h22">Valorant</h2>
+      </div>
+    </div>
+
+</div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </div>
+    </div>
+    </div>
+    </div>        
+
+
+<!-- DIV CARDS AS A GAMES -->
+  <div class="container">
+<h2 class="card-header"># MOST PUPULER NOW IN INDIA</h2>  
+<div class="game-grid">
+  <!-- Card 1 -->
+  <div class="game-card">
+    <img src="./divcards/BeanMg.drive.jpg" alt="Game 1">
+    <div class="game-info">
+      <h3>BeanMg Drive</h3>
+      <p>High-speed futuristic racing game.</p>
+      <button class="btn-neon">Download</button>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="game-card">
+    <img src="./divcards/Cyberpunk 2077.jpg" alt="Game 2">
+    <div class="game-info">
+      <h3>Cyberpunk 2077</h3>
+      <p>It is an open-world, action-adventure role-playing game (RPG) .</p>
+      <button class="btn-neon">Download</button>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="game-card">
+    <img src="./divcards/football manager.jpg" alt="Game 3">
+    <div class="game-info">
+      <h3>Football Manager</h3>
+      <p>Deep Dive into football.</p>
+      <button class="btn-neon">Download</button>
+    </div>
+  </div>
+
+<!-- card 4 -->
+  <div class="game-card">
+    <img src="./divcards/froza horizon 5.jpg" alt="Game 1">
+    <div class="game-info">
+      <h3>Froza Horizon</h3>
+      <p>One of the best High-speed futuristic racing game.</p>
+      <button class="btn-neon">Download</button>
+    </div>
+  </div>
+
+  <!-- Card 5 -->
+  <div class="game-card">
+    <img src="./divcards/gta.jpg" alt="Game 2">
+    <div class="game-info">
+      <h3>Grand Theif Auto-V</h3>
+      <p>primarily an action-adventure game. .</p>
+      <button class="btn-neon">Download</button>
+    </div>
+  </div>
+
+
+  <!-- Card 6 -->
+  <div class="game-card">
+    <img src="./divcards/hotwheels unleashed2.jpg" alt="Game 2">
+    <div class="game-info">
+      <h3>Hotwheels-Unleashed2</h3>
+      <p>Most famous Game in worldwide</p>
+      <button class="btn-neon">Download</button>
+    </div>
+  </div>
+
+
+  <!-- Card 7 -->
+  <div class="game-card">
+    <img src="./divcards/NBA 2k23.jpg" alt="Game 2">
+    <div class="game-info">
+      <h3>NBA 2k23</h3>
+      <p>sports simulation video game centered on basketball.</p>
+      <button class="btn-neon">Download</button>
+    </div>
+  </div>
+
+<!-- Card 8 -->
+  <div class="game-card">
+    <img src="./divcards/red dead redemption 2.jpg" alt="Game 2">
+    <div class="game-info">
+      <h3>Red Dead-Redemption</h3>
+      <p>Action and Drama categeory.</p>
+      <button class="btn-neon">Download</button>
+    </div>
+  </div>
+
+
+<!-- Card 9 -->
+  <div class="game-card">
+    <img src="./divcards/sekiro;shadows die twice.jpg" alt="Game 2">
+    <div class="game-info">
+      <h3>SEKIRO;shadows die twice</h3>
+      <p>.primarily an action-adventure game with a strong emphasis</p>
+      <button class="btn-neon">Download</button>
+    </div>
+  </div>
+
+<!-- Card 10 -->
+  <div class="game-card">
+    <img src="./divcards/wwe2k25.jpg" alt="Game 2">
+    <div class="game-info">
+      <h3>WWE-2k25</h3>
+      <p>wildtype freestyle boxing game.</p>
+      <button class="btn-neon">Download</button>
+    </div>
+  </div>
+
+
+<!-- Card 11-->
+  <div class="game-card">
+    <img src="./divcards/asset 12.jpeg" alt="Game 2">
+    <div class="game-info">
+      <h3>Wuchang Fallen Feathers</h3>
+      <p>Ninja Samurai domination game</p>
+      <button class="btn-neon">Download</button>
+    </div>
+  </div>
+
+  <!-- Card 12-->
+  <div class="game-card">
+    <img src="./divcards/asset 13.jpeg" alt="Game 2">
+    <div class="game-info">
+      <h3>TitanQuest</h3>
+      <p>Alone Warrior filled with action and Adventure.</p>
+      <button class="btn-neon">Download</button>
+    </div>
+  </div>
+</div>
+
+<!-- More Games button -->
+<div class="container">
+    <a href="./release.html" class="secondary-button">Try More Games<i class="fa-solid fa-right-long"></i></a>
+
+</div>
+
+
+<!-- Features Section -->
+
+   <section class="website-features">
+         <div class="container">
+          <div class="features-header">
+            <h2 class="features-heading-text">Features</h2>
+            <h4>We are constantly working to bring new updates and features to ByteBlitz</h4>
+            <a href="#" class="secondary-button">see all features <i class="fa-solid fa-right-long"></i></a>
+          </div>
+         
+
+          <div class="features-area flex">
+            <div class="features-cards flex">
+              <img src="./features/icon-gamehubs.svg" alt="">
+              <h3>Game Hubs</h3>
+              <p>Everything about your game, all in one place.Join discussions,Upload content,And the be the first to know about updates.</p>
+              <a href="#" class="secondary-button">Learn More<i class="fa-solid fa-right-long"></i></a>
+          </div>
+
+          <div class="features-cards flex">
+              <img src="./features/Broadcast.svg" alt="" height="50px" width="50px">
+              <h3>ByteBlitz Broadcast</h3>
+              <p>Stream your gameplay live with the click of button and share your game with friends.</p>
+              <a href="#" class="secondary-button">Learn More<i class="fa-solid fa-right-long"></i></a>
+          </div>
+ 
+          <div class="features-cards flex">
+              <img src="./features/icon-steamworkshop.svg" alt="" height="50px" width="50px">
+              <h3>ByteBlitz Workshop</h3>
+              <p>Create,discover and download player created modes and cosmetics with 1000 supported games.</p>
+              <a href="#" class="secondary-button">Learn More<i class="fa-solid fa-right-long"></i></a>
+          </div>
+
+          <div class="features-cards flex">
+              <img src="./features/icon-earlyaccess.svg" alt="" height="50px" width="50px">
+              <h3>Early Access</h3>
+              <p>Be th first to see whats coming and became part of the process.</p>
+              <a href="#" class="secondary-button">Learn More<i class="fa-solid fa-right-long"></i></a>
+          </div>
+
+          <div class="features-cards flex">
+              <img src="./features/icon-steammobile.svg" alt="" height="50px" width="50px">
+              <h3>Available on Mobile</h3>
+              <p>Access ByteBlitz anywhere from your IOS or Android devices.</p>
+              <a href="#" class="secondary-button">Learn More<i class="fa-solid fa-right-long"></i></a>
+          </div>
+
+            <div class="features-cards flex">
+              <img src="./features/icon-controllers.svg" alt="" height="50px" width="50px">
+              <h3>Controllers Support</h3>
+              <p>ByteBlitz encourages devlopers to controllers support in their games inclueding Playstation.</p>
+              <a href="#" class="secondary-button">Learn More<i class="fa-solid fa-right-long"></i></a>
+          </div>
+          </div>
+          </div>
+   </section>
+
+
+
+
+   <section class="website-features">
+          <div class="container">
+
+
+
+
+
+          </div>
+   </section>
+
+
+
+
+   <section class="premium">
+         <div class="container">
+
+
+         </div>
+   </section>
+
+
+   <section class="information">
+          <div class="container">
+
+
+
+           </div>
+   </section>
+
+
+   <footer>
+         <div class="container">
+
+
+
+          </div>
+   </footer>
+
+<footer>
+    <div class="container">
+    <p>&copy; 2025 ByteBlitz. All rights reserved.</p>
+    <div class="social-links">
+      <a href="#"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.instagram.com/omkarshirure29_?igsh=a2s4M2ZkZXd1aTlq"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100080000097412"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.linkedin.com/in/omkar-shirure-675540377/"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://wa.link/ym1tp5"><i class="fa-brands fa-whatsapp"></i></a>
+
+    </div>
+  </footer>
+
+
+   <div class="sub-footer">
+        <div class="container">
+
+
+
+        </div>
+   </div>
+
+   
+<!-- <div class="spacer" style="height: 100vh;"></div> -->
+    <script src="https://kit.fontawesome.com/0f074549d4.js" crossorigin="anonymous"></script>
+</body>
+</html>
