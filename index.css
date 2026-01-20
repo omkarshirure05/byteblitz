@@ -347,15 +347,31 @@ footer{
 /* Media Query for devices <= 786px */
 @media (max-width: 786px){
 
-  /* Navbar adjustments */
+    body{
+    margin: 0;
+    padding: 0;
+    gap: 8px; 
+  }
+
   .main-nav {
     flex-direction: column;
-    gap: 15px;
+    justify-content: flex-start;   /* REPLACES space-between */
+    align-items: center;
+    height: auto;
+    min-height: auto;
+    gap: 8px;
+  }
+
+  .nav-links {
+    flex-basis: auto;             
+    width: 100%;
   }
 
   .nav-links ul {
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;       /* REPLACES end */
+    gap: 6px;
+    padding: 0;
+    margin: 0;
   }
 
   /* Carousel adjustments */
@@ -422,3 +438,4 @@ footer{
     padding-inline: 10px;
   }
 }
+
